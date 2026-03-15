@@ -10,6 +10,10 @@ Enables auto-rotation of your PCB in the 3D viewer
 
 This plugin automates the F-key flipping of your PCB in the 3D viewer, creating an automated 360 degree "rotation". Useful for showing off your shiny new PCB to the world, in all its 3D glory!
 
+### Installation
+
+Simply install the *auto_rotate.zip* archive using the PCM. Open the PCM in KiCad, and select *Install from file*, then select the .zip archive.
+
 
 ### How to use: 
 
