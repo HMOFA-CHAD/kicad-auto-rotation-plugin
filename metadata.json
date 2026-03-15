@@ -1,0 +1,25 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v2",
+    "name": "KiCad Auto Rotation Plugin",
+    "description": "Auto Rotation plugin for KiCad's 3D viewer",
+    "description_full": "Enables auto-rotation of your PCB in the 3D viewer. Enjoy showing off your shiny new PCB in all it's 3D glory!\nThis plugin automates the F-key flipping of your PCB in the 3D viewer, creating an automated 360 degree 'rotation'.\n\nHow to use:\n\nIn pcbnew, open up the 3D viewer first. Next, go back to pcbnew and click on the Auto Rotation Plugin icon in the pcbnew toolbar. The 3D viewer window will automatically re-focus, and your PCB will begin rotating.\nYou can change the number of rotations and pauses between F-key presses by changing the 'flips' and 'pause' variables in the auto_rotate.py script.",
+    "identifier": "com.github.HMOFA-CHAD.kicad-auto-rotation-plugin",
+    "type": "plugin",
+    "author": {
+        "name": "Ian Pritchard",
+        "contact": {
+            "github": "https://github.com/HMOFA-CHAD"
+        }
+    },
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://github.com/HMOFA-CHAD/kicad-auto-rotation-plugin"
+    },
+    "versions": [
+        {
+            "version": "1.0",
+            "status": "stable",
+            "kicad_version": "9.0"
+        }
+    ]
+}
