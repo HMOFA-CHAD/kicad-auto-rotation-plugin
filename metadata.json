@@ -2,7 +2,7 @@
     "$schema": "https://go.kicad.org/pcm/schemas/v2",
     "name": "KiCad Auto Rotation Plugin",
     "description": "Auto Rotation plugin for KiCad's 3D viewer",
-    "description_full": "Enables auto-rotation of your PCB in the 3D viewer. Enjoy showing off your shiny new PCB in all it's 3D glory!\nThis plugin automates the F-key flipping of your PCB in the 3D viewer, creating an automated 360 degree 'rotation'.\n\nHow to use:\n\nIn pcbnew, open up the 3D viewer first. Next, go back to pcbnew and click on the Auto Rotation Plugin icon in the pcbnew toolbar. The 3D viewer window will automatically re-focus, and your PCB will begin rotating.\nYou can change the number of rotations and pauses between F-key presses by changing the 'flips' and 'pause' variables in the auto_rotate.py script.",
+    "description_full": "This plugin automates the rotating and flipping of your PCB in the 3D viewer, creating an automated 360 degree 'rotation'. Useful for showing off your shiny new PCB to the world, in all its 3D glory!\n\nHow to use:\n\nIf you haven't already, assign a hotkey for the Y-axis rotation in the 3D viewer preferences. The auto rotation tool will prompt you for this hotkey.\nIn pcbnew, open up the 3D viewer first. Next, go back to pcbnew and click on the Auto Rotation Plugin icon in the pcbnew toolbar. The 3D viewer window will automatically re-focus, and a dialog will open providing you with config options.\nYou can change the number of rotations, flips, and delays between movements by changing the values in the dialog window. Select to either flip or rotate the board, and select OK to begin.\n\nIf you have any questions, problems, or suggestions, please submit them to the issues page on GitHub! Contributions are welcome!",
     "identifier": "com.github.HMOFA-CHAD.kicad-auto-rotation-plugin",
     "type": "plugin",
     "author": {
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "version": "1.0",
+            "version": "1.1",
             "status": "stable",
             "kicad_version": "9.0"
         }
