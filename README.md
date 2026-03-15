@@ -21,7 +21,7 @@ In pcbnew, open up the 3D viewer first. Next, go back to pcbnew and click on the
 
 You can change the number of rotations and pauses between F-key presses by changing the "flips" and "pause" variables in the auto_rotate.py script.
 
-If you have any questions, problems, or suggestions, please submit them to the issues page on GitHub! Contributions are welcome!
+If you have any questions, problems, or suggestions, please submit them to the issues page on GitHub! Contributions are welcome (dev branch)!
 
 ### Acknowledgements:
 
